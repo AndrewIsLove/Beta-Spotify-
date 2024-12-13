@@ -82,7 +82,7 @@ const playMusic = (track, pause = false) => {
 
 
 async function displayAlbums(params) {
-    let a = await fetch(`http://192.168.29.54:3000/songs/`);
+    let a = await fetch(`/songs/`);
     let response = await a.text();
     console.log(response);
     let div = document.createElement("div");
