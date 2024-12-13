@@ -1,0 +1,8 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Green circular background -->
+    <circle cx="25" cy="25" r="25" fill="#00da6b" />
+    <!-- Original SVG centered within the circle -->
+    <svg x="13" y="13" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+    </svg>
+</svg>
